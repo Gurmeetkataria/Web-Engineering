@@ -40,7 +40,7 @@ The `<img>` tag is used to **embed images** in a webpage. It is an **empty tag**
  `alt`: Alternate text (displayed if image fails to load)
   Example:
 
-<img src="https://static.vecteezy.com/system/resources/previews/047/656/219/non_2x/abstract-logo-design-for-any-corporate-brand-business-company-vector.jpg" alt="Website Logo">
+<img src="" alt="Website Logo">
 
 
 ---
