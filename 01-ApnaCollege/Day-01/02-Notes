@@ -1,7 +1,4 @@
-
----
-
-## 📘 Day-01 HTML - Noted
+# 📘 Day-01 HTML - Notes
 
 ### 1. **Lists in HTML**
 
