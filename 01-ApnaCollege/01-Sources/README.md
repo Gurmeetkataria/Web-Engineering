@@ -12,15 +12,8 @@ I use Visual Code Studio 🖥️📝
 
 ## 📚From which source I am learning Coding?
 I am learning Web-Development at NexGen IT Academy Sukkur 🏫💡 But
-I also learn from some YouTube channels ▶️🎓
+I also learn from a YouTube channel ▶️🎓
 
-## ▶️Which YouTube Channels?
+## ▶️Which YouTube Channel?
 
-1st:
 ### 🎓Apna College
-
-2nd:
-### 💡CodeWithHarry
-
-3rd:
-### ☕Chai aur Code
