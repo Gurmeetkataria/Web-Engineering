@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-02 Practice Question</title>
+</head>
+<body>
+
+    <!-- Ans 1 -->
+
+<p>I am a Deltait!</p>
+
+    <!-- Ans 2 -->
+<h1>Delta</h1>
+<h2>Full Stack Web Development</h2>
+<h3>MERN Stack</h3>
+<p>Let's begin our learning journey!</p>
+
+    <!-- Ans 3 -->
+
+<a href="https://www.apnacollege.in/">Go to Apna College</a>
+
+
+<!-- Ans 4 -->
+
+<li>Epsita</li>
+<h3>Rank List</h3>
+<ol>
+<li>Deepak</li>
+<li>Lakshita</li>
+<li>Tanmay</li>
+<li>Agrim</li>
+</ol>
+
+<!-- Ans 5 -->
+
+Visit these links & read :
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr">Hr tag in HTMl</a> 
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/Entity">HTML Entities</a>
+</body>
+</html>
