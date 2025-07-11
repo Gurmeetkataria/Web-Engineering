@@ -1,4 +1,4 @@
-```markdown
+
 # 🌐 HTML (Day-1) - Notes
 
 This folder contains my notes and progress for **HTML Level 1 – Part A** from my Web Development journey. These are the very basics of HTML that help in forming the foundation.
@@ -21,9 +21,7 @@ This folder contains my notes and progress for **HTML Level 1 – Part A** from 
   - **Opening tag**: `<tagname>`
   - **Closing tag**: `</tagname>`
 - Example:
-  ```html
   <p>This is a paragraph</p>
-````
 
 ---
 
@@ -48,9 +46,7 @@ This folder contains my notes and progress for **HTML Level 1 – Part A** from 
 * Browsers automatically add spacing before and after paragraphs.
 * Example:
 
-  ```html
   <p>This is my first paragraph in HTML.</p>
-  ```
 
 ---
 
@@ -59,15 +55,12 @@ This folder contains my notes and progress for **HTML Level 1 – Part A** from 
 * Used to define headings in HTML.
 * There are **6 levels of headings**:
 
-  * `<h1>` is the largest and most important.
-  * `<h6>` is the smallest.
+  * <h1> is the largest and most important.
+  * <h6> is the smallest.
 * Helps structure content and improve accessibility/SEO.
 * Example:
-
-  ```html
   <h1>Main Heading</h1>
   <h2>Subheading</h2>
-  ```
 
 ---
 
@@ -76,8 +69,6 @@ This folder contains my notes and progress for **HTML Level 1 – Part A** from 
 * Basic starting template for every HTML document.
 * Ensures proper rendering and structure in the browser.
 * Example:
-
-  ```html
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -89,7 +80,7 @@ This folder contains my notes and progress for **HTML Level 1 – Part A** from 
     <h1>Hello World!</h1>
   </body>
   </html>
-  ```
+
 
 ---
 
