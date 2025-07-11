@@ -1,73 +1,78 @@
-# 📘HTML(Day-01) - Notes
+# 🌐 HTML (Level 1) – Part A
 
-### 1. **Lists in HTML**
-
-HTML provides two main types of lists:
-
- **Ordered List (`<ol>`)**: Displays items in a numbered format.
- **Unordered List (`<ul>`)**: Displays items in a bullet-point format.
-  Each item in the list is defined using the `<li>` (list item) tag. Lists help organize content in a readable and structured way.
+This folder contains my notes and progress for **HTML Level 1 – Part A** from my Web Development journey. These are the very basics of HTML that help in forming the foundation.
 
 ---
 
-### 2. **Attributes in HTML**
+## 📘 Topics Covered
 
-Attributes provide **additional information about an HTML element**. They are always specified in the start tag and usually come in **name/value pairs** like `name="value"`.
-Example:
-
-<a href="https://example.com">Visit</a>
-
-Here, `href` is an attribute of the `<a>` (anchor) tag.
+### 1. Introduction to HTML
+- HTML stands for **HyperText Markup Language**.
+- It is the standard language used to create web pages.
+- HTML uses tags to structure web content (like headings, paragraphs, links, etc.).
 
 ---
 
-### 3. **Anchor Element**
-
-The `<a>` tag (anchor element) is used to create **hyperlinks**, allowing users to navigate from one page to another. The `href` attribute specifies the destination URL.
-Example:
-
-```html
-<a href="https://google.com">Go to Google</a>
-```
-
----
-
-### 4. **Image Element**
-
-The `<img>` tag is used to **embed images** in a webpage. It is an **empty tag** (doesn’t have a closing tag) and uses attributes like:
-
- `src`: The image source (URL or file path)
- `alt`: Alternate text (displayed if image fails to load)
-  Example:
-
-<img src="" alt="Website Logo">
-
+### 2. HTML Elements & Tags
+- **Elements** are the building blocks of HTML.
+- A **tag** defines the start and end of an element.
+- Most tags have:
+  - **Opening tag**: `<tagname>`
+  - **Closing tag**: `</tagname>`
+- Example: `<p>This is a paragraph</p>`
 
 ---
 
-### 5. **More HTML Tags**
-
-Covers additional HTML elements such as:
-
- `<br>` (line break)
- `<hr>` (horizontal rule)
- `<strong>`, `<em>` for emphasizing text
-  These tags enhance text formatting and content layout on webpages.
+### 3. Hello World
+- Your first HTML file typically includes:
+  - `<!DOCTYPE html>` → Document type declaration
+  - `<html>`, `<head>`, `<body>` → Basic structure
+- Output: Displays “Hello World” on a web page using `<h1>` or `<p>`.
 
 ---
 
-### 6. **Comments in HTML**
-
-HTML comments are used to **leave notes or explanations** within the code, which are not visible in the browser.
-Syntax:
-
-
-<!-- This is a comment -->
-
-Comments help developers understand the code or temporarily disable parts without deleting them.
+### 4. Paragraph Element
+- Paragraphs are defined using the `<p>` tag.
+- Browsers automatically add some spacing before and after paragraphs.
+- Example:
+  ```html
+  <p>This is my first paragraph in HTML.</p>
+````
 
 ---
 
-### 7. **Is HTML Case Sensitive?**
+### 5. Heading Elements
 
-HTML is not case-sensitive, which means `<HTML>` and `<html>` are treated the same. However, it’s a good practice to use **lowercase tags and attributes** to follow modern web standards (HTML5).
+* HTML provides **6 levels of headings**:
+
+  * `<h1>` (largest/most important)
+  * to `<h6>` (smallest)
+* Headings help structure content hierarchically.
+* Example:
+
+  ```html
+  <h1>Main Heading</h1>
+  <h2>Subheading</h2>
+  ```
+
+---
+
+### 6. Boilerplate Code
+
+* Basic starting code template for every HTML file.
+* Example:
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Web Page</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
+  </html>
+  ```
+* Boilerplate ensures proper rendering and structure of your webpage.
