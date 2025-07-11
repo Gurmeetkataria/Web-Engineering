@@ -1,4 +1,4 @@
-# 🌐 HTML (Level 1) – Part A
+# 🌐 HTML (Day-1) - Notes
 
 This folder contains my notes and progress for **HTML Level 1 – Part A** from my Web Development journey. These are the very basics of HTML that help in forming the foundation.
 
