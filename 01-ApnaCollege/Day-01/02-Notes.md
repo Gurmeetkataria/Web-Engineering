@@ -1,3 +1,4 @@
+````markdown
 # 🌐 HTML (Day-1) - Notes
 
 This folder contains my notes and progress for **HTML Level 1 – Part A** from my Web Development journey. These are the very basics of HTML that help in forming the foundation.
@@ -19,35 +20,48 @@ This folder contains my notes and progress for **HTML Level 1 – Part A** from 
 - Most tags have:
   - **Opening tag**: `<tagname>`
   - **Closing tag**: `</tagname>`
-- Example: `<p>This is a paragraph</p>`
+- Example:
+  ```html
+  <p>This is a paragraph</p>
+````
 
 ---
 
 ### 3. Hello World
-- Your first HTML file typically includes:
-  - `<!DOCTYPE html>` → Document type declaration
-  - `<html>`, `<head>`, `<body>` → Basic structure
-- Output: Displays “Hello World” on a web page using `<h1>` or `<p>`.
+
+* Your first HTML file typically includes:
+
+  * `<!DOCTYPE html>` → Document type declaration
+  * `<html>`, `<head>`, `<body>` → Basic structure
+* Output: Displays “Hello World” on a web page using `<h1>` or `<p>`.
+* Example:
+
+  ```html
+  <h1>Hello World</h1>
+  ```
 
 ---
 
 ### 4. Paragraph Element
-- Paragraphs are defined using the `<p>` tag.
-- Browsers automatically add some spacing before and after paragraphs.
-- Example:
+
+* Paragraphs are defined using the `<p>` tag.
+* Browsers automatically add spacing before and after paragraphs.
+* Example:
+
   ```html
   <p>This is my first paragraph in HTML.</p>
-````
+  ```
 
 ---
 
 ### 5. Heading Elements
 
-* HTML provides **6 levels of headings**:
+* Used to define headings in HTML.
+* There are **6 levels of headings**:
 
-  * `<h1>` (largest/most important)
-  * to `<h6>` (smallest)
-* Headings help structure content hierarchically.
+  * `<h1>` is the largest and most important.
+  * `<h6>` is the smallest.
+* Helps structure content and improve accessibility/SEO.
 * Example:
 
   ```html
@@ -59,7 +73,8 @@ This folder contains my notes and progress for **HTML Level 1 – Part A** from 
 
 ### 6. Boilerplate Code
 
-* Basic starting code template for every HTML file.
+* Basic starting template for every HTML document.
+* Ensures proper rendering and structure in the browser.
 * Example:
 
   ```html
@@ -75,4 +90,8 @@ This folder contains my notes and progress for **HTML Level 1 – Part A** from 
   </body>
   </html>
   ```
-* Boilerplate ensures proper rendering and structure of your webpage.
+
+---
+
+```
+
