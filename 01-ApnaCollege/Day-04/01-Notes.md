@@ -105,7 +105,7 @@ Definition: The <input type="range"> is used for numeric input via a slider. You
 Example:
 <input type="range" min="1" max="100" step="5">
 
-### 13. Text Area
+## 13. Text Area
 Definition: The <textarea> element allows multi-line input, suitable for long-form content like comments, reviews, or messages.
 
 Example:
