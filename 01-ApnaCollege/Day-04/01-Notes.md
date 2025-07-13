@@ -18,8 +18,8 @@ Example:
 `<table>`  
 
   `<thead><tr><th>Item</th></tr></thead>`  
-  `<tbody><tr><td>Pen</td></tr></tbody>`
-  `<tfoot><tr><td>Total</td></tr></tfoot>`
+  `<tbody><tr><td>Pen</td></tr></tbody>`  
+  `<tfoot><tr><td>Total</td></tr></tfoot>`  
 `</table>`
 
 ## 3. Colspan & Rowspan Attributes
