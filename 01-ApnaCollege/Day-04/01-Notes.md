@@ -12,7 +12,7 @@ Example:
 </table>
 
 ## 2. Semantics in Tables
-Semantic tags like <thead>, <tbody>, and <tfoot> give meaning and structure to table content, improving accessibility for screen readers and search engines.
+Semantic tags like `<thead>`, `<tbody>`, and `<tfoot>` give meaning and structure to table content, improving accessibility for screen readers and search engines.
 
 Example:
 <table>
