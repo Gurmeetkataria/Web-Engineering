@@ -52,7 +52,7 @@ The <input> element is used to collect different types of data from the user, su
 Common types: text, email, password, number, date, file, etc.
 
 Example:
-<input type="email" placeholder="Enter your email" />
+**<input type="email" placeholder="Enter your email" />**
 
 ## 6. Placeholders & Labels
 placeholder: Helps users understand what input is expected.
