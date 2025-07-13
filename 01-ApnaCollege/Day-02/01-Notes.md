@@ -39,9 +39,9 @@ The `<img>` tag is used to **embed images** in a webpage. It is an **empty tag**
  `src`: The image source (URL or file path)
  `alt`: Alternate text (displayed if image fails to load)
   Example:
-
+```html
 <img src="" alt="Website Logo">
-
+```
 
 ---
 
