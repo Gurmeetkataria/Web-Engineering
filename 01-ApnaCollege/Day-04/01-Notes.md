@@ -77,20 +77,20 @@ Definition: The name attribute identifies form data and is used in data submissi
 Example:
 <input type="text" name="username" />
 
-### 9. Checkbox – Input Element
+## 9. Checkbox – Input Element
 Definition: Checkboxes allow users to select multiple options independently. Ideal for forms involving categories, skills, or preferences.
 
 Example:
 <input type="checkbox" name="skill" value="HTML"> HTML
 
-### 10. Radio – Input Element
+## 10. Radio – Input Element
 Definition: Radio buttons are used when only one option is allowed. All related radio inputs must share the same name.
 
 Example:
 <input type="radio" name="gender" value="male"> Male
 <input type="radio" name="gender" value="female"> Female
 
-### 11. Select – Input Element
+## 11. Select – Input Element
 Definition: The <select> element provides a dropdown list. It’s useful for selecting one item from a fixed set of choices (like country, course, etc.).
 
 Example:
@@ -99,7 +99,7 @@ Example:
   <option value="css">CSS</option>
 </select>
 
-### 12. Range – Input Element
+## 12. Range – Input Element
 Definition: The <input type="range"> is used for numeric input via a slider. You can customize the range using min, max, and step.
 
 Example:
