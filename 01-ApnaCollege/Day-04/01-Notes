@@ -1,196 +1,112 @@
-# 🌐 HTML Level 3 – Notes
+# 🌐 HTML Day-04 – Notes
 
-## 1. Tables in HTML
-Used to display data in rows and columns.  
-Tags: `<table>`, `<tr>`, `<th>`, `<td>`
+1.  Tables in HTML
+Tables in HTML are used to organize data into rows and columns, making it easy to display tabular content such as schedules, reports, and data entries.
 
-**Example:**
-```html
+`<table>`, `<tr>`, `<th>`, `<td>`
+
+Example:
 <table>
   <tr><th>Name</th><th>Age</th></tr>
   <tr><td>Ali</td><td>20</td></tr>
 </table>
+
 2. Semantics in Tables
-Use <thead>, <tbody>, and <tfoot> to divide a table meaningfully.
-✅ Enhances accessibility and structure.
+Semantic tags like <thead>, <tbody>, and <tfoot> give meaning and structure to table content, improving accessibility for screen readers and search engines.
 
 Example:
-
-html
-Copy
-Edit
 <table>
   <thead><tr><th>Item</th></tr></thead>
   <tbody><tr><td>Pen</td></tr></tbody>
   <tfoot><tr><td>Total</td></tr></tfoot>
 </table>
-3. Colspan & Rowspan Attributes
-colspan: Makes a cell span across multiple columns.
 
-rowspan: Makes a cell span across multiple rows.
+3. Colspan & Rowspan Attributes
+These attributes allow a single table cell to span multiple rows or columns, which is useful for merging cells in headers or grouping data visually.
+
+colspan: Merges columns.
+rowspan: Merges rows.
 
 Example:
-
-html
-Copy
-Edit
 <tr>
   <td colspan="2">Merged Column</td>
 </tr>
 <tr>
   <td rowspan="2">Merged Row</td><td>Data</td>
 </tr>
-4. Practice Questions – Tables
-Apply your knowledge of:
 
-Table structure
+4. Forms in HTML
+Forms are interactive elements in HTML used to collect user input and send it to a server for processing (e.g., login, signup, feedback).
 
-Semantic tags
-
-Row/column merging
-
-5. Forms in HTML
-Forms collect user input and send it to a server.
-🛠️ Created using the <form> tag.
-Often paired with <input>, <label>, and <button>.
+Tag: <form>
 
 Example:
-
-html
-Copy
-Edit
 <form>
   <input type="text" />
   <button type="submit">Submit</button>
 </form>
-6. Input – Form Element
-The <input> tag is used for various types of user input.
-Types include:
 
-text
+5. Input – Form Element
+The <input> element is used to collect different types of data from the user, such as text, numbers, emails, and passwords.
 
-email
-
-password
-
-number
+Common types: text, email, password, number, date, file, etc.
 
 Example:
-
-html
-Copy
-Edit
 <input type="email" placeholder="Enter your email" />
-7. Placeholders & Labels
-placeholder: Shows hint text inside input.
 
-<label>: Describes the input field, linked using for.
+6. Placeholders & Labels
+placeholder: Helps users understand what input is expected.
+
+label: Connects to input fields for accessibility and improves form usability, especially for screen readers.
 
 Example:
-
-html
-Copy
-Edit
 <label for="name">Name:</label>
 <input type="text" id="name" placeholder="Enter your name" />
-8. Button Element
-The <button> tag is used to submit forms or trigger actions.
-Types:
 
-submit
+7. Button Element
+Definition: The <button> element performs actions such as submitting forms or triggering JavaScript. Essential for interactivity and data submission.
 
-reset
-
-button
+Types: submit, reset, button
 
 Example:
-
-html
-Copy
-Edit
 <button type="submit">Submit</button>
-9. Name Attribute
-The name attribute is used to reference form data after submission.
-🎯 Important for backend/server-side processing.
+
+8. Name Attribute
+Definition: The name attribute identifies form data and is used in data submission to the backend. It's crucial because form data is submitted as key-value pairs where name is the key.
 
 Example:
-
-html
-Copy
-Edit
 <input type="text" name="username" />
-10. Practice Questions – Form Basics
-Exercises on:
 
-Input fields
-
-Labels
-
-Name attribute
-
-Form structure
-
-11. Checkbox – Input Element
-<input type="checkbox"> allows selecting one or more options.
-✅ Useful for multiple choices like hobbies or skills.
+9. Checkbox – Input Element
+Definition: Checkboxes allow users to select multiple options independently. Ideal for forms involving categories, skills, or preferences.
 
 Example:
-
-html
-Copy
-Edit
 <input type="checkbox" name="skill" value="HTML"> HTML
-12. Radio – Input Element
-<input type="radio"> allows selecting only one option in a group.
-📌 Use the same name for grouping radio buttons.
+
+10. Radio – Input Element
+Definition: Radio buttons are used when only one option is allowed. All related radio inputs must share the same name.
 
 Example:
-
-html
-Copy
-Edit
 <input type="radio" name="gender" value="male"> Male
 <input type="radio" name="gender" value="female"> Female
-13. Select – Input Element
-Creates a dropdown list using <select> and <option>.
+
+11. Select – Input Element
+Definition: The <select> element provides a dropdown list. It’s useful for selecting one item from a fixed set of choices (like country, course, etc.).
 
 Example:
-
-html
-Copy
-Edit
 <select>
   <option value="html">HTML</option>
   <option value="css">CSS</option>
 </select>
-14. Range – Input Element
-<input type="range"> creates a slider to select numeric values.
-⚙️ Use min, max, and step attributes.
+
+12. Range – Input Element
+Definition: The <input type="range"> is used for numeric input via a slider. You can customize the range using min, max, and step.
 
 Example:
-
-html
-Copy
-Edit
 <input type="range" min="1" max="100" step="5">
-15. Text Area
-<textarea> is used for multi-line text input (e.g., comments or feedback).
+
+13. Text Area
+Definition: The <textarea> element allows multi-line input, suitable for long-form content like comments, reviews, or messages.
 
 Example:
-
-html
-Copy
-Edit
 <textarea rows="4" cols="30">Enter your feedback...</textarea>
-16. Practice Questions – Input Elements
-Practice topics:
-
-Checkbox
-
-Radio buttons
-
-Select dropdown
-
-Range slider
-
-Text area
