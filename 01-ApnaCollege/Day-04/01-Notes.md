@@ -15,11 +15,12 @@ Example:
 Semantic tags like `<thead>`, `<tbody>`, and `<tfoot>` give meaning and structure to table content, improving accessibility for screen readers and search engines.
 
 Example:
-<table>
-  <thead><tr><th>Item</th></tr></thead>
-  <tbody><tr><td>Pen</td></tr></tbody>
-  <tfoot><tr><td>Total</td></tr></tfoot>
-</table>
+`<table>`  
+
+  `<thead><tr><th>Item</th></tr></thead>`  
+  `<tbody><tr><td>Pen</td></tr></tbody>`
+  `<tfoot><tr><td>Total</td></tr></tfoot>`
+`</table>`
 
 ## 3. Colspan & Rowspan Attributes
 These attributes allow a single table cell to span multiple rows or columns, which is useful for merging cells in headers or grouping data visually.
@@ -38,7 +39,7 @@ Example:
 ## 4. Forms in HTML
 Forms are interactive elements in HTML used to collect user input and send it to a server for processing (e.g., login, signup, feedback).
 
-Tag: <form>
+Tag: `<form>`
 
 Example:
 <form>
@@ -52,7 +53,7 @@ The <input> element is used to collect different types of data from the user, su
 Common types: text, email, password, number, date, file, etc.
 
 Example:
-**<input type="email" placeholder="Enter your email" />**
+<input type="email" placeholder="Enter your email" />
 
 ## 6. Placeholders & Labels
 placeholder: Helps users understand what input is expected.
