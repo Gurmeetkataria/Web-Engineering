@@ -21,7 +21,7 @@ Example:
   <tfoot><tr><td>Total</td></tr></tfoot>
 </table>
 
-### 3. Colspan & Rowspan Attributes
+## 3. Colspan & Rowspan Attributes
 These attributes allow a single table cell to span multiple rows or columns, which is useful for merging cells in headers or grouping data visually.
 
 colspan: Merges columns.
@@ -35,7 +35,7 @@ Example:
   <td rowspan="2">Merged Row</td><td>Data</td>
 </tr>
 
-### 4. Forms in HTML
+## 4. Forms in HTML
 Forms are interactive elements in HTML used to collect user input and send it to a server for processing (e.g., login, signup, feedback).
 
 Tag: <form>
@@ -46,7 +46,7 @@ Example:
   <button type="submit">Submit</button>
 </form>
 
-### 5. Input – Form Element
+## 5. Input – Form Element
 The <input> element is used to collect different types of data from the user, such as text, numbers, emails, and passwords.
 
 Common types: text, email, password, number, date, file, etc.
@@ -54,7 +54,7 @@ Common types: text, email, password, number, date, file, etc.
 Example:
 <input type="email" placeholder="Enter your email" />
 
-### 6. Placeholders & Labels
+## 6. Placeholders & Labels
 placeholder: Helps users understand what input is expected.
 
 label: Connects to input fields for accessibility and improves form usability, especially for screen readers.
@@ -63,7 +63,7 @@ Example:
 <label for="name">Name:</label>
 <input type="text" id="name" placeholder="Enter your name" />
 
-### 7. Button Element
+## 7. Button Element
 Definition: The <button> element performs actions such as submitting forms or triggering JavaScript. Essential for interactivity and data submission.
 
 Types: submit, reset, button
@@ -71,7 +71,7 @@ Types: submit, reset, button
 Example:
 <button type="submit">Submit</button>
 
-### 8. Name Attribute
+## 8. Name Attribute
 Definition: The name attribute identifies form data and is used in data submission to the backend. It's crucial because form data is submitted as key-value pairs where name is the key.
 
 Example:
