@@ -1,6 +1,6 @@
 # 🌐 HTML Day-04 – Notes
 
-### 1.  Tables in HTML
+## 1.  Tables in HTML
 Tables in HTML are used to organize data into rows and columns, making it easy to display tabular content such as schedules, reports, and data entries.
 
 `<table>`, `<tr>`, `<th>`, `<td>`
@@ -11,7 +11,7 @@ Example:
   <tr><td>Ali</td><td>20</td></tr>
 </table>
 
-### 2. Semantics in Tables
+## 2. Semantics in Tables
 Semantic tags like <thead>, <tbody>, and <tfoot> give meaning and structure to table content, improving accessibility for screen readers and search engines.
 
 Example:
