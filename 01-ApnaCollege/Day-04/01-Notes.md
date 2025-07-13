@@ -41,11 +41,10 @@ Forms are interactive elements in HTML used to collect user input and send it to
 Tag: <form>
 
 Example:
-```<form>
+<form>
   <input type="text" />
   <button type="submit">Submit</button>
-</form>```
-
+</form>
 ## 5. Input – Form Element
 The <input> element is used to collect different types of data from the user, such as text, numbers, emails, and passwords.
 
