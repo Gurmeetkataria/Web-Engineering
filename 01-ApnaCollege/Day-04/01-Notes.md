@@ -28,12 +28,12 @@ colspan: Merges columns.
 rowspan: Merges rows.
 
 Example:
-<tr>
-  <td colspan="2">Merged Column</td>
-</tr>
-<tr>
-  <td rowspan="2">Merged Row</td><td>Data</td>
-</tr>
+`<tr>`
+  `<td colspan="2">Merged Column</td>`
+`</tr>`
+`<tr>`
+  `<td rowspan="2">Merged Row</td><td>Data</td>`
+`</tr>`
 
 ## 4. Forms in HTML
 Forms are interactive elements in HTML used to collect user input and send it to a server for processing (e.g., login, signup, feedback).
