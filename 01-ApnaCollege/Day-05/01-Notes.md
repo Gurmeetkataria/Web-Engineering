@@ -20,7 +20,7 @@ Selector: Target HTML element(s).
 
 Declaration Block: One or more property-value pairs enclosed in {}.
 
-Syntax:
+**Syntax:**
 ```css
 selector {
   property: value;
