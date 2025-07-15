@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 ```
-
+---
 ## 2. Basic CSS Format
 CSS is written using rules, which consist of:
 
