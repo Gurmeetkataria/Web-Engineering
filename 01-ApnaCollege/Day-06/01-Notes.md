@@ -1,3 +1,4 @@
+# 🌐 CSS (Day-06) – Revision Notes
 
 ## 1. Universal Selector
 
@@ -11,20 +12,20 @@ The universal selector `*` targets **all HTML elements** on the page. It is ofte
   padding: 0;
   box-sizing: border-box;
 }
-2. Element Selector
+
+## 2.Element Selector
 Definition:
 Selects elements based on their HTML tag name.
 
 Example:
 
-css
-Copy
-Edit
+``css
 h1 {
   font-size: 2em;
   color: navy;
 }
-3. ID Selector
+```
+## 3.ID Selector
 Definition:
 Selects a specific element using its unique id value. It starts with a hash (#) symbol.
 
