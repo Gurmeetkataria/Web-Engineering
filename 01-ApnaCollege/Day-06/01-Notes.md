@@ -1,8 +1,3 @@
-# 🎯 CSS – Part 2 (Selectors, Specificity, and More)
-
-> Learn about advanced CSS selectors, inheritance, specificity, and styling techniques.
-
----
 
 ## 1. Universal Selector
 
