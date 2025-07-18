@@ -12,6 +12,7 @@ The universal selector `*` targets **all HTML elements** on the page. It is ofte
   padding: 0;
   box-sizing: border-box;
 }
+```
 
 ## 2.Element Selector
 Definition:
@@ -25,8 +26,8 @@ h1 {
   color: navy;
 }
 ```
-
-## 3.ID Selector
+```
+## 3. ID Selector
 Definition:
 Selects a specific element using its unique id value. It starts with a hash (#) symbol.
 
@@ -39,7 +40,7 @@ Example:
   color: white;
 }
 ```
-# 4.Class Selector
+## 4. Class Selector
 Definition:
 Targets one or multiple elements that share the same class. It begins with a period (.).
 
@@ -50,7 +51,7 @@ Example:
   padding: 10px;
 }
 ```
-# 5.Descendant Selector
+## 5. Descendant Selector
 Definition:
 Selects elements that are nested within another element, regardless of how deeply they are nested.
 
@@ -60,7 +61,7 @@ div p {
   color: gray;
 }
 ```
-# 6.Sibling Combinator
+## 6. Sibling Combinator
 Definition:
 Selects an element that comes immediately after another element at the same level using the + symbol.
 
@@ -70,7 +71,7 @@ h1 + p {
   font-style: italic;
 }
 ```
-# 7.Child Combinator
+## 7. Child Combinator
 Definition:
 Selects elements that are direct children of another element using the > symbol.
 
@@ -80,7 +81,7 @@ ul > li {
   color: green;
 }
 ```
-# 8.Attribute Selector
+## 8. Attribute Selector
 Definition:
 Targets elements based on the presence or value of an attribute.
 
@@ -90,7 +91,7 @@ input[type="email"] {
   border: 2px solid skyblue;
 }
 ```
-# 9.Pseudo Class
+##  9. Pseudo Class
 Definition:
 Used to define the special state of an element such as hover, focus, first-child, etc. It starts with a single colon (:).
 
@@ -101,7 +102,7 @@ a:hover {
   color: red;
 }
 ```
-# 10.Pseudo Element
+## 10. Pseudo Element
 Definition:
 Used to style specific parts of an element, like the first line or first letter. It starts with double colons (::).
 
@@ -112,7 +113,7 @@ p::first-letter {
   color: darkorange;
 }
 ```
-# 11.Cascading & Specificity
+## 11. Cascading & Specificity
 Definition:
 
 Cascading: The concept where the last declared rule wins if multiple rules target the same element.
@@ -136,7 +137,7 @@ Example:
 #main-title {
   color: navy;
 }
-# 12.!important in CSS
+##  12. !important in CSS
 Definition:
 Forces a CSS rule to be applied, overriding all other rules, regardless of specificity. Use only when absolutely necessary.
 
@@ -146,7 +147,7 @@ p {
   font-size: 18px !important;
 }
 ```
-# 13.Inheritance
+##  13. Inheritance
 Definition:
 Inheritance means that some properties (like text color, font family) are passed from parent elements to their children unless overridden.
 
