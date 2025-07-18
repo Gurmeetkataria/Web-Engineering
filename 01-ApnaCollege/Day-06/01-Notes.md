@@ -25,6 +25,7 @@ h1 {
   color: navy;
 }
 ```
+
 ## 3.ID Selector
 Definition:
 Selects a specific element using its unique id value. It starts with a hash (#) symbol.
@@ -32,63 +33,53 @@ Selects a specific element using its unique id value. It starts with a hash (#) 
 Note: IDs should be unique within a page.
 
 Example:
-
-css
-Copy
-Edit
+```css
 #main-header {
   background-color: black;
   color: white;
 }
-4. Class Selector
+```
+# 4.Class Selector
 Definition:
 Targets one or multiple elements that share the same class. It begins with a period (.).
 
 Example:
-
-css
-Copy
-Edit
+```css
 .card {
   border: 1px solid #ccc;
   padding: 10px;
 }
-5. Descendant Selector
+```
+# 5.Descendant Selector
 Definition:
 Selects elements that are nested within another element, regardless of how deeply they are nested.
 
 Example:
-
-css
-Copy
-Edit
+```css
 div p {
   color: gray;
 }
-6. Sibling Combinator
+```
+# 6.Sibling Combinator
 Definition:
 Selects an element that comes immediately after another element at the same level using the + symbol.
 
 Example:
-
-css
-Copy
-Edit
+```css
 h1 + p {
   font-style: italic;
 }
-7. Child Combinator
+```
+# 7.Child Combinator
 Definition:
 Selects elements that are direct children of another element using the > symbol.
 
 Example:
-
-css
-Copy
-Edit
+```css
 ul > li {
   color: green;
 }
+```
 8. Attribute Selector
 Definition:
 Targets elements based on the presence or value of an attribute.
