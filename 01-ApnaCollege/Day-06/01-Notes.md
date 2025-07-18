@@ -80,45 +80,39 @@ ul > li {
   color: green;
 }
 ```
-8. Attribute Selector
+# 8.Attribute Selector
 Definition:
 Targets elements based on the presence or value of an attribute.
 
 Example:
-
-css
-Copy
-Edit
+```css
 input[type="email"] {
   border: 2px solid skyblue;
 }
-9. Pseudo Class
+```
+# 9.Pseudo Class
 Definition:
 Used to define the special state of an element such as hover, focus, first-child, etc. It starts with a single colon (:).
 
 Example:
-
-css
-Copy
-Edit
+```css
 a:hover {
   text-decoration: underline;
   color: red;
 }
-10. Pseudo Element
+```
+# 10.Pseudo Element
 Definition:
 Used to style specific parts of an element, like the first line or first letter. It starts with double colons (::).
 
 Example:
-
-css
-Copy
-Edit
+```css
 p::first-letter {
   font-size: 2em;
   color: darkorange;
 }
-11. Cascading & Specificity
+```
+# 11.Cascading & Specificity
 Definition:
 
 Cascading: The concept where the last declared rule wins if multiple rules target the same element.
@@ -138,37 +132,29 @@ Inline styles → style="" in HTML
 !important rule → Overrides all
 
 Example:
-
-css
-Copy
-Edit
 /* This will override the .title rule because of higher specificity */
 #main-title {
   color: navy;
 }
-12. !important in CSS
+# 12.!important in CSS
 Definition:
 Forces a CSS rule to be applied, overriding all other rules, regardless of specificity. Use only when absolutely necessary.
 
 Example:
-
-css
-Copy
-Edit
+```css
 p {
   font-size: 18px !important;
 }
-13. Inheritance
+```
+# 13.Inheritance
 Definition:
 Inheritance means that some properties (like text color, font family) are passed from parent elements to their children unless overridden.
 
 Example:
-
-css
-Copy
-Edit
+```css
 body {
   font-family: Verdana;
   color: #333;
 }
 /* All child elements will inherit these unless they have their own styles */
+```
