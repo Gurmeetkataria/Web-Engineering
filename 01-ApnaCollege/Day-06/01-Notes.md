@@ -14,7 +14,7 @@ The universal selector `*` targets **all HTML elements** on the page. It is ofte
 }
 ```
 
-## 2 .Element Selector
+## 2. Element Selector
 Definition:
 Selects elements based on their HTML tag name.
 
