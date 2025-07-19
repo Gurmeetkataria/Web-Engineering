@@ -18,7 +18,7 @@ The universal selector `*` targets **all HTML elements** on the page. It is ofte
 Definition:
 Selects elements based on their HTML tag name.
 
-Example:
+**Example:**
 
 ``css
 h1 {
@@ -65,7 +65,7 @@ div p {
 Definition:
 Selects an element that comes immediately after another element at the same level using the + symbol.
 
-Example:
+**Example:**
 ```css
 h1 + p {
   font-style: italic;
@@ -85,7 +85,7 @@ ul > li {
 Definition:
 Targets elements based on the presence or value of an attribute.
 
-Example:
+**Example:**
 ```css
 input[type="email"] {
   border: 2px solid skyblue;
@@ -95,7 +95,7 @@ input[type="email"] {
 Definition:
 Used to define the special state of an element such as hover, focus, first-child, etc. It starts with a single colon (:).
 
-Example:
+**Example:**
 ```css
 a:hover {
   text-decoration: underline;
@@ -106,7 +106,7 @@ a:hover {
 Definition:
 Used to style specific parts of an element, like the first line or first letter. It starts with double colons (::).
 
-Example:
+**Example:**
 ```css
 p::first-letter {
   font-size: 2em;
@@ -132,7 +132,7 @@ Inline styles → style="" in HTML
 
 !important rule → Overrides all
 
-Example:
+**Example:**
 /* This will override the .title rule because of higher specificity */
 #main-title {
   color: navy;
@@ -141,7 +141,7 @@ Example:
 Definition:
 Forces a CSS rule to be applied, overriding all other rules, regardless of specificity. Use only when absolutely necessary.
 
-Example:
+**Example:**
 ```css
 p {
   font-size: 18px !important;
@@ -151,7 +151,7 @@ p {
 Definition:
 Inheritance means that some properties (like text color, font family) are passed from parent elements to their children unless overridden.
 
-Example:
+**Example:**
 ```css
 body {
   font-family: Verdana;
