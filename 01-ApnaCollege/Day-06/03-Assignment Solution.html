@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Assignment</title>
+    <style>
+
+    #mainTopic {
+        color: blue;
+ }
+
+    *{
+        text-align: center;
+ }
+
+    h1,h3,h5{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+    #para{
+        color: whitesmoke;
+        background-color: cornflowerblue;
+ }
+
+    div button{
+        background-color: purple;
+        color: azure;
+ }
+
+    button:hover{
+        color: blue;
+        background-color: yellow;
+ }
+
+    p:nth-of-type(2n){
+        color:yellow;
+ }
+
+    h1::first-letter{
+        color: red;
+ }
+
+     input:checked + label {
+        color: darkgreen;
+ }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="mainTopic">CSS Practice</h1>
+
+    <h3>Let's learn about selector.</h3>
+
+    <!-- Paragraph1 -->
+
+    <p id="para">There are multiple selectors in css.</p>
+
+    <!-- Paragraph2 -->
+
+    <p id="para">Some of them include class selector, id selector etc.</p>
+
+    <!-- Paragraph3 -->
+
+    <p id="para">And we can also combine these too.</p>
+
+    <div>
+
+        <h5>Did you like the practice set?</h5>
+
+        <input type="checkbox" id="yes" />
+
+        <label for="yes">Yes</label>
+
+        <br />
+
+        <button>Learn next!</button>
+
+    </div>
+</body>
+
+</html>
