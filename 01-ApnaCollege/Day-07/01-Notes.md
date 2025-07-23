@@ -1,4 +1,4 @@
-# 📘 CSS - (Day-07) - Revision Notes
+# 📘 CSS (Day-07) - Revision Notes
 
 ## 1. Box Model
 The CSS Box Model describes the rectangular boxes that are generated for elements in the document tree.
