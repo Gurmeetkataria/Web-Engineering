@@ -68,7 +68,8 @@ Specifies the display behavior of an element (e.g., block, inline, flex, grid, e
 }
 ```
 ## 8. Block & Inline Elements (Conclusion)
-Block: Starts on a new line, takes full width.
+#### Block:
+   Starts on a new line, takes full width.
 
 Inline: Stays in line, only takes as much width as needed.
 
