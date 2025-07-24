@@ -95,9 +95,9 @@ Percentage units are relative to the parent element’s size.
 }
 ```
 ## 11. Em & Rem in Units
-em is relative to the font-size of the parent.
+**em** is relative to the font-size of the parent.
 
-rem is relative to the font-size of the root (html).
+**rem** is relative to the font-size of the root (html).
 
 ```css
 html {
