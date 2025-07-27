@@ -38,50 +38,48 @@ Useful for creating animated icons, rotated text, or dynamic layouts.
   transform: rotate(45deg); /* Rotates the element 45 degrees */
 }
 ```
-4. Transform - Scale
+## 4. Transform - Scale
 Scale increases or decreases the size of an element. It doesn’t affect the actual layout, just the visual appearance.
 
 Great for hover zoom effects on buttons or images.
 
-css
-Copy
-Edit
+```css
 .box {
   transform: scale(1.2); /* 120% of original size */
 }
-5. Transform - Translate
+```
+
+## 5. Transform - Translate
 Translate moves an element from its original position along the X and Y axes.
 
 Used to create smooth motion or offset effects.
 
-css
-Copy
-Edit
+```css
 .box {
   transform: translate(50px, 20px); /* Right 50px, down 20px */
 }
-6. Transform - Skew
+```
+## 6. Transform - Skew
 Skew tilts an element along the X and/or Y axis, creating a slanted look.
 
 This is mostly used for creative or stylized layouts.
 
-css
-Copy
-Edit
+```css
 .box {
   transform: skew(20deg, 10deg);
 }
-7. Box Shadow
+```
+
+## 7. Box Shadow
 Box-shadow adds a shadow effect around an element’s box, helping to create depth or elevation.
 
 You can control horizontal offset, vertical offset, blur, and shadow color.
 
-css
-Copy
-Edit
+```css
 .box {
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
 }
+```
 8. Background Image
 Background-image is used to apply an image behind an element’s content. You can control how the image is displayed using background-size, position, and repeat.
 
