@@ -139,6 +139,7 @@ A smiley face can be created using only HTML & CSS by combining basic shapes and
 </div>
 ```
 ```css
+/* CSS */
 .face {
   width: 120px;
   height: 120px;
