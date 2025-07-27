@@ -131,6 +131,7 @@ Used for menus, tooltips, layouts, and sticky headers.
 A smiley face can be created using only HTML & CSS by combining basic shapes and positioning. This is a fun way to practice border-radius, position, and layout skills.
 
 ```html
+<!-- HTML -->
 <div class="face">
   <div class="eye left"></div>
   <div class="eye right"></div>
