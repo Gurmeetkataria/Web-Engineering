@@ -80,25 +80,23 @@ You can control horizontal offset, vertical offset, blur, and shadow color.
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
 }
 ```
-8. Background Image
+
+## 8. Background Image
 Background-image is used to apply an image behind an element’s content. You can control how the image is displayed using background-size, position, and repeat.
 
-css
-Copy
-Edit
+```css
 .box {
   background-image: url("image.jpg");
   background-size: cover;
   background-position: center;
 }
-9. Card Hover Effect
+```
+## 9. Card Hover Effect
 Card hover effects use a mix of transition, transform, or box-shadow to add interactivity to cards when the user hovers over them.
 
 Great for making UI/UX more interactive and attractive.
 
-css
-Copy
-Edit
+```css
 .card {
   transition: all 0.3s ease;
 }
@@ -106,7 +104,8 @@ Edit
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-10. Position Property
+```
+## 10. Position Property
 Position in CSS defines how an element is placed in the document layout.
 
 static: Default, follows the normal document flow.
@@ -121,28 +120,24 @@ sticky: Acts relative until it reaches a defined scroll position.
 
 Used for menus, tooltips, layouts, and sticky headers.
 
-css
-Copy
-Edit
+```css
 .box {
   position: absolute;
   top: 20px;
   left: 50px;
 }
-11. Simple Smiley Face (Using CSS)
+```
+## 11. Simple Smiley Face (Using CSS)
 A smiley face can be created using only HTML & CSS by combining basic shapes and positioning. This is a fun way to practice border-radius, position, and layout skills.
 
-html
-Copy
-Edit
+```html
 <div class="face">
   <div class="eye left"></div>
   <div class="eye right"></div>
   <div class="smile"></div>
 </div>
-css
-Copy
-Edit
+```
+```css
 .face {
   width: 120px;
   height: 120px;
@@ -177,3 +172,4 @@ Edit
   bottom: 30px;
   left: 30px;
 }
+```
