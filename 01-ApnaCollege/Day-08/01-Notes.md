@@ -1,4 +1,4 @@
-# CSS - (Day-08) - Revision Notes
+# CSS  (Day-08) - Revision Notes
 
 ---
 
