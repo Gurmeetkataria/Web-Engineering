@@ -13,12 +13,12 @@ You can also use `rgba()` to control the transparency of background colors.
   opacity: 0.5; /* Element is 50% transparent */
   background-color: rgba(255, 0, 0, 0.3); /* Red with 30% opacity */
 }
-2. Transitions in CSS
-Transitions allow CSS property changes to occur smoothly over a set duration instead of instantly. This helps create animations like hover effects, color fades, or movement.
+```
 
-css
-Copy
-Edit
+## 2. Transitions in CSS
+**Transitions** allow CSS property changes to occur smoothly over a set duration instead of instantly. This helps create animations like hover effects, color fades, or movement.
+
+```css
 .box {
   transition: all 0.4s ease;
 }
@@ -26,17 +26,18 @@ Edit
   background-color: blue;
   transform: scale(1.1);
 }
-3. Transform - Rotate
+```
+
+## 3. Transform - Rotate
 Rotate is used to turn an element clockwise or counterclockwise by a certain angle.
 
 Useful for creating animated icons, rotated text, or dynamic layouts.
 
-css
-Copy
-Edit
+```css
 .box {
   transform: rotate(45deg); /* Rotates the element 45 degrees */
 }
+```
 4. Transform - Scale
 Scale increases or decreases the size of an element. It doesn’t affect the actual layout, just the visual appearance.
 
