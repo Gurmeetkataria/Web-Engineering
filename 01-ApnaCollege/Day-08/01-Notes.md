@@ -108,15 +108,15 @@ Great for making UI/UX more interactive and attractive.
 ## 10. Position Property
 Position in CSS defines how an element is placed in the document layout.
 
-static: Default, follows the normal document flow.
+**static:** Default, follows the normal document flow.
 
-relative: Positioned relative to its normal position.
+**relative:** Positioned relative to its normal position.
 
-absolute: Positioned relative to the nearest positioned ancestor.
+**absolute:** Positioned relative to the nearest positioned ancestor.
 
-fixed: Stays in place even when scrolling.
+**fixed:** Stays in place even when scrolling.
 
-sticky: Acts relative until it reaches a defined scroll position.
+**sticky:** Acts relative until it reaches a defined scroll position.
 
 Used for menus, tooltips, layouts, and sticky headers.
 
