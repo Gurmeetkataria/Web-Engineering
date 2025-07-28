@@ -8,7 +8,7 @@
 
 You can also use `rgba()` to control the transparency of background colors.
 
-```css
+```cs
 .box {
   opacity: 0.5; /* Element is 50% transparent */
   background-color: rgba(255, 0, 0, 0.3); /* Red with 30% opacity */
