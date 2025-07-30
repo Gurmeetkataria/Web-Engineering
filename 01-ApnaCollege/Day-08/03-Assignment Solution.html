@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+    <html lang="en"> 
+<head> 
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0" /> 
+    <title>CSS Assignment</title> 
+<   link rel="stylesheet" href="CSS-PART-4.css" /> 
+<style>
+    #box1 { 
+    width: 100px; 
+    height: 100px; 
+    background: green; 
+    transition: 2s ease-in 0.5s;
+} 
+     
+#box1:hover { 
+    width: 600px;
+}
+
+ 
+#box2 { 
+    width: 100px; 
+    height: 100px; 
+    background: red;
+    transform:  translate(200px , 200px) rotate(90deg);
+} 
+
+#box3 { 
+ 
+    width: 100px; 
+    height: 100px; 
+    background: lightblue; 
+    transform: skew(20deg);
+
+} 
+
+#box4 { 
+    width: 100px; 
+    height: 100px; 
+    background: lightgreen; 
+    box-shadow: 2px 2px 5px green; 
+}
+
+ 
+#myPic { 
+    width: 200px; 
+    height: 200px; 
+    background: pink; 
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    opacity: 50%;    
+}
+
+
+</style>
+</head> 
+<body> 
+<div id="box1">This is box1</div> 
+<div id="box2">This is box2</div> 
+<div id="box3">This is box3</div> 
+<div id="box4">This is box4</div> 
+<div id="myPic">This is my Pic</div> 
+</body> 
+</html>
