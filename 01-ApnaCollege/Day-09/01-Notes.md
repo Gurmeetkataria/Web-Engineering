@@ -20,7 +20,7 @@ All direct children become flex items.
 .container {
   display: flex;
 }
-``
+```
 
 ## 3. Flex Direction
 Specifies the direction of flex items inside the container.
