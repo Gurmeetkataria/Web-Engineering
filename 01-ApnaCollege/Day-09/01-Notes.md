@@ -15,7 +15,7 @@ It works in a **one-dimensional** flow: either in rows or columns.
 To enable Flexbox behavior, use display: flex on the parent container.
 All direct children become flex items.
 
-### Example
+**Example**
 ```css
 .container {
   display: flex;
