@@ -48,7 +48,7 @@ space-between	Equal spacing between
 space-around	Equal spacing around each item
 space-evenly	Equal spacing between and around
 
-🔹 Example
+# Example
 css
 Copy
 Edit
