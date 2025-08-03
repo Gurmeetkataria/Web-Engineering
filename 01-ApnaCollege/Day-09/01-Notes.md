@@ -31,7 +31,7 @@ row-reverse	Right to left
 column	Top to bottom
 column-reverse	Bottom to top
 
-### Example
+**Example**
 ```css
 .container {
   flex-direction: row;
