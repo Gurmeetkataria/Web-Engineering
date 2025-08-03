@@ -37,7 +37,7 @@ column-reverse	Bottom to top
   flex-direction: row;
 }
 ```
-4. 🎯 Justify Content
+4.  Justify Content
 Aligns items horizontally along the main axis.
 
 Value	Purpose
