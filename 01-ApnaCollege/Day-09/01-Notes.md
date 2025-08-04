@@ -81,13 +81,12 @@ center	Align to center
 flex-end	Align to bottom
 baseline	Align based on text baseline
 
-🔹 Example
-css
-Copy
-Edit
+**Example**
+```css
 .container {
   align-items: center;
 }
+```
 7. 🧭 Align Content
 Aligns multiple rows of items vertically when there is space in the container.
 Only works when items are wrapped using flex-wrap.
