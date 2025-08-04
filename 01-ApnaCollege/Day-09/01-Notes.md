@@ -49,13 +49,13 @@ space-around	Equal spacing around each item
 space-evenly	Equal spacing between and around
 
 **Example:**
-css
-Copy
-Edit
+```css
 .container {
   justify-content: space-between;
 }
-5. 🔁 Flex Wrap
+```
+
+## 5. Flex Wrap
 By default, items try to fit in one line.
 flex-wrap allows them to wrap onto multiple lines.
 
@@ -64,14 +64,14 @@ nowrap	All items in one line
 wrap	Wrap items to new row
 wrap-reverse	Wrap in reverse order
 
-🔹 Example
-css
-Copy
-Edit
+ **Example**
+```css
 .container {
   flex-wrap: wrap;
 }
-6. 🧍 Align Items
+```
+
+## 6. Align Items
 Aligns flex items vertically along the cross axis.
 
 Value	Meaning
