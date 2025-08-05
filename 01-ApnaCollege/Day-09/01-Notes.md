@@ -133,14 +133,14 @@ flex-shrink: Can it shrink?
 flex-basis: Initial/default size
 
  **Example**
-css
-Copy
-Edit
+```css
 .item {
   flex-grow: 2;
   flex-shrink: 1;
   flex-basis: 100px;
 }
+```
+
 10. ✍️ Flex Shorthand
 A shortcut to define grow, shrink, and basis in one line.
 
