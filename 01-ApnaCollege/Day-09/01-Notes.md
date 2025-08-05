@@ -87,7 +87,7 @@ baseline	Align based on text baseline
   align-items: center;
 }
 ```
-7. 🧭 Align Content
+### 7. Align Content
 Aligns multiple rows of items vertically when there is space in the container.
 Only works when items are wrapped using flex-wrap.
 
