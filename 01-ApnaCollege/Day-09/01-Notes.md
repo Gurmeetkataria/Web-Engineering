@@ -87,7 +87,7 @@ baseline	Align based on text baseline
   align-items: center;
 }
 ```
-### 7. Align Content
+## 7. Align Content
 Aligns multiple rows of items vertically when there is space in the container.
 Only works when items are wrapped using flex-wrap.
 
@@ -106,7 +106,7 @@ space-evenly	Equal spacing everywhere
 }
 ```
 
-### 8. Align Self
+## 8. Align Self
 Overrides align-items for individual flex items.
 
 Value	Meaning
@@ -122,7 +122,7 @@ flex-end	Align to bottom
 }
 ```
 
-### 9. Flex Sizing
+## 9. Flex Sizing
 Defines how items grow, shrink, and take up space.
 
 Properties
