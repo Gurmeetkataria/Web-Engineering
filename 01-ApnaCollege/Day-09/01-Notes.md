@@ -132,7 +132,7 @@ flex-shrink: Can it shrink?
 
 flex-basis: Initial/default size
 
-🔹 Example
+ **Example**
 css
 Copy
 Edit
