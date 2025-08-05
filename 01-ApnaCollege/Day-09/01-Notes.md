@@ -98,7 +98,7 @@ space-between	Equal space between rows
 space-around	Equal space around each row
 space-evenly	Equal spacing everywhere
 
-🔹 Example
+** Example**
 css
 Copy
 Edit
