@@ -115,14 +115,14 @@ center	Center this item
 flex-start	Align to top
 flex-end	Align to bottom
 
-🔹 Example
-css
-Copy
-Edit
+**Example**
+```css
 .item {
   align-self: flex-end;
 }
-9. 📏 Flex Sizing
+```
+
+### 9. Flex Sizing
 Defines how items grow, shrink, and take up space.
 
 Properties
