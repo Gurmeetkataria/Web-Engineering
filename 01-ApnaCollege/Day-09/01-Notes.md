@@ -99,14 +99,14 @@ space-around	Equal space around each row
 space-evenly	Equal spacing everywhere
 
 **Example**
-css
-Copy
-Edit
+```css
 .container {
   flex-wrap: wrap;
   align-content: space-evenly;
 }
-8. 🧍‍♂️ Align Self
+```
+
+### 8. Align Self
 Overrides align-items for individual flex items.
 
 Value	Meaning
