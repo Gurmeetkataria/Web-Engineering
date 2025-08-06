@@ -146,8 +146,7 @@ A shortcut to define grow, shrink, and basis in one line.
 
 Syntax
 ```css
-Copy
-Edit
+
 .item {
   flex: <grow> <shrink> <basis>;
 }
