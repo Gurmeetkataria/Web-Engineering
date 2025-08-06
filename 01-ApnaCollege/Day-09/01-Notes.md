@@ -145,7 +145,7 @@ flex-basis: Initial/default size
 A shortcut to define grow, shrink, and basis in one line.
 
 Syntax
-css
+```css
 Copy
 Edit
 .item {
