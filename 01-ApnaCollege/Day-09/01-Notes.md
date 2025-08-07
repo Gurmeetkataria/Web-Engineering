@@ -144,7 +144,7 @@ flex-basis: Initial/default size
 ## 10. Flex Shorthand
 A shortcut to define grow, shrink, and basis in one line.
 
-*Syntax*
+**Syntax**
 ```css
 .item {
   flex: <grow> <shrink> <basis>;
