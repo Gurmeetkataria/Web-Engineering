@@ -92,8 +92,8 @@ Aligns multiple rows of items vertically when there is space in the container.
 Only works when items are wrapped using flex-wrap.
 
 Value	Effect
-stretch	Stretches rows (default)
-center	Centers all rows
+**stretch**	Stretches rows (default)
+**center**	Centers all rows
 space-between	Equal space between rows
 space-around	Equal space around each row
 space-evenly	Equal spacing everywhere
