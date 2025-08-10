@@ -7,7 +7,7 @@ It works in a **one-dimensional** flow: either in rows or columns.
 
 ```css
 .container {
-  isplay: flex;
+  display: flex;
 }
 ```
 
