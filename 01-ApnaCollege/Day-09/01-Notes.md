@@ -11,7 +11,7 @@ It works in a **one-dimensional** flow: either in rows or columns.
 }
 ```
 
-### 2. Display Flex
+## 2. Display Flex
 To enable Flexbox behavior, use display: flex on the parent container.
 All direct children become flex items.
 
