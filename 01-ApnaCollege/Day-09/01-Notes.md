@@ -81,7 +81,7 @@ center	Align to center
 flex-end	Align to bottom
 baseline	Align based on text baseline
 
-**Example
+*Example
 ```css
 .container {
   align-items: center;
