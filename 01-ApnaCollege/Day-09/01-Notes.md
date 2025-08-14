@@ -95,8 +95,8 @@ Value	Effect
 stretch:	Stretches rows (default)
 center:	Centers all rows.
 space-between:	Equal space between rows
-space-around Equal space around each row
-**space-evenly**	Equal spacing everywhere
+space-around: Equal space around each row
+**space-evenly*	Equal spacing everywhere
 
 **Example**
 ```css
