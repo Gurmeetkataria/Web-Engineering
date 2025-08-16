@@ -106,7 +106,7 @@ space-evenly:	Equal spacing everywhere
 }
 ```
 
-## 8. Align Self
+# 8. Align Self
 Overrides align-items for individual flex items.
 
 Value	Meaning
