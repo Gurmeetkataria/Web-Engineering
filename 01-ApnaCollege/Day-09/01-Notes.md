@@ -111,7 +111,7 @@ Overrides align-items for individual flex items.
 
 Value	Meaning
 auto:	Uses parent's setting
-center	Center this item
+center:	Center this item
 flex-start	Align to top
 flex-end	Align to bottom
 
