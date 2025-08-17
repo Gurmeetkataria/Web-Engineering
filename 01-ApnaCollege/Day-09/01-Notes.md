@@ -110,7 +110,7 @@ space-evenly:	Equal spacing everywhere
 Overrides align-items for individual flex items.
 
 Value	Meaning
-auto	Uses parent's setting
+auto:	Uses parent's setting
 center	Center this item
 flex-start	Align to top
 flex-end	Align to bottom
