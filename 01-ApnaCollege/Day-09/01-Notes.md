@@ -113,7 +113,7 @@ Value	Meaning
 auto:	Uses parent's setting
 center:	Center this item
 flex-start:	Align to top
-flex-end	Align to bottom
+flex-end:	Align to bottom
 
 **Example**
 ```css
