@@ -115,7 +115,7 @@ center:	Center this item
 flex-start:	Align to top
 flex-end:	Align to bottom
 
-*Example
+Example
 ```css
 .item {
   align-self: flex-end;
